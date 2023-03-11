@@ -14,7 +14,7 @@ public class CheckBalance {
 		String host = "localhost";
 		String port = "3306";
 		Connection con = DriverManager.getConnection("jdbc:mysql://" + host + ":" + port + "/SeleniumLeraning",
-				"root", "outlookftp@12");
+				"root", "<Password>");
 		Statement ss = con.createStatement();
 		ResultSet rs = ss.executeQuery(
 				"select ab_account_balance from account_balance where ab_Account_number = '" + AccountNumber + "'");
