@@ -19,7 +19,7 @@ public class CreateAccount {
 			String host = "localhost";
 			String port = "3306";
 			Connection con = DriverManager.getConnection("jdbc:mysql://" + host + ":" + port + "/SeleniumLeraning", "root",
-					"outlookftp@12");
+					"<Password>");
 
 			System.out.println("Enter your Name");
 			String Name = sc.next();
