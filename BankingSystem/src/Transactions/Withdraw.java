@@ -19,7 +19,7 @@ public class Withdraw {
 			String host = "localhost";
 			String port = "3306";
 			Connection con = DriverManager.getConnection("jdbc:mysql://" + host + ":" + port + "/SeleniumLeraning",
-					"root", "outlookftp@12");
+					"root", "<Password>");
 			Statement ss = con.createStatement();
 			try {
 			ResultSet rs = ss.executeQuery(
