@@ -16,7 +16,7 @@ public class AccountClose {
 		String port = "3306";
 		try {
 			Connection con = DriverManager.getConnection("jdbc:mysql://" + user + ":" + port + "/SeleniumLeraning",
-					"root", "outlookftp@12");
+					"root", "<Password>");
 			Statement s = con.createStatement();
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Enter the AccountNumber");
